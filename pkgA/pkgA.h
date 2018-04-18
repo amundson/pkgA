@@ -2,9 +2,10 @@
 
 class PkgA
 {
-    private:
-        bool just_used;
-public:
+  private:
+    bool just_used;
+
+  public:
     PkgA(bool just_used);
     int doit() const;
 };

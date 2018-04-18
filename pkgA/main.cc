@@ -1,6 +1,7 @@
 #include "pkgA.h"
 
-int main()
+int
+main()
 {
     PkgA pkgA(false);
     pkgA.doit();

@@ -1,11 +1,9 @@
-#include <iostream>
 #include "pkgA.h"
+#include <iostream>
 
-
-PkgA::PkgA(bool just_used):
-    just_used(just_used)
-{
-}
+PkgA::PkgA(bool just_used)
+  : just_used(just_used)
+{}
 
 int
 PkgA::doit() const
